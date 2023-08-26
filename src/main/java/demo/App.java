@@ -16,9 +16,14 @@ public class App {
         // links.Bookmyshow();
         // links.endTest();
 
-        LinkedinPost post = new LinkedinPost();
-        post.LinkedinPost();
-        post.endTest();
+        // LinkedinPost post = new LinkedinPost();
+        // post.LinkedinPost();
+        // post.endTest();
+
+        Imageurls links = new Imageurls();
+        links.Imageurls();
+        links.endTest();
+
         
     }
 
