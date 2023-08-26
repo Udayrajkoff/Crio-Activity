@@ -20,10 +20,13 @@ public class App {
         // post.LinkedinPost();
         // post.endTest();
 
-        Imageurls links = new Imageurls();
-        links.Imageurls();
-        links.endTest();
+        // Imageurls links = new Imageurls();
+        // links.Imageurls();
+        // links.endTest();
 
+        IFrames TextofFrames = new IFrames();
+        TextofFrames.IFrames();
+        TextofFrames.endTest();
         
     }
 
