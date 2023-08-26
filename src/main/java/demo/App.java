@@ -8,13 +8,13 @@ import java.net.MalformedURLException;
 public class App {
     public void getGreeting() throws InterruptedException, MalformedURLException {
         
-        SearchAmazon search = new SearchAmazon();
-        search.SearchAmazon();
-        search.endTest();
+        // SearchAmazon search = new SearchAmazon();
+        // search.SearchAmazon();
+        // search.endTest();
 
-        Bookmyshow links = new Bookmyshow();
-        links.Bookmyshow();
-        links.endTest();
+        // Bookmyshow links = new Bookmyshow();
+        // links.Bookmyshow();
+        // links.endTest();
 
         LinkedinPost post = new LinkedinPost();
         post.LinkedinPost();

@@ -49,7 +49,7 @@ public class LinkedinPost {
         // Enter user name in username field Using Locator "XPath" //input[@id='username'].sendKeys("udayrakoff@gmail.com")
         driver.findElement(By.xpath("//input[@id='username']")).sendKeys("udayrajkoff@gmail.com");
         // Enter password in password field Using Locator "XPath" //input[@id='password'].sendKeys("")
-        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("");
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Deekshith@159");
         // Click on "Sign in" button Using Locator "XPath" //button[@type='submit'].click()
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
@@ -91,7 +91,7 @@ public class LinkedinPost {
         driver.findElement(By.xpath("//a[text()='View post']")).click();
         Thread.sleep(3000);
         // get text of the post  text.getText()
-        boolean textPost = driver.findElement(By.xpath("//*[@id=\"ember29\"]/div/div[4]/div/div/span/span")).isDisplayed();
+        boolean textPost = driver.findElement(By.xpath("/html/body/div[5]/div[3]/div/div/div/div[2]/div/div/main/div/section/div/div/div[4]/div/div/span/span")).isDisplayed();
         System.out.println("Post Conntection only posted? : " + textPost);
    }
     
