@@ -49,7 +49,7 @@ public class LinkedinPost {
         // Enter user name in username field Using Locator "XPath" //input[@id='username'].sendKeys("udayrakoff@gmail.com")
         driver.findElement(By.xpath("//input[@id='username']")).sendKeys("udayrajkoff@gmail.com");
         // Enter password in password field Using Locator "XPath" //input[@id='password'].sendKeys("")
-        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("Deekshith@159");
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("");
         // Click on "Sign in" button Using Locator "XPath" //button[@type='submit'].click()
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
