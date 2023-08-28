@@ -24,10 +24,17 @@ public class App {
         // links.Imageurls();
         // links.endTest();
 
-        IFrames TextofFrames = new IFrames();
-        TextofFrames.IFrames();
-        TextofFrames.endTest();
+        // IFrames TextofFrames = new IFrames();
+        // TextofFrames.IFrames();
+        // TextofFrames.endTest();
         
+        // WindowHandle newWindow = new WindowHandle();
+        // newWindow.WindowHandle();
+        // newWindow.endTest();
+
+        IMDBRating movieRating = new IMDBRating();
+        movieRating.IMDBRating();
+        movieRating.endTest();
     }
 
     public static void main(String[] args) throws InterruptedException, MalformedURLException {
